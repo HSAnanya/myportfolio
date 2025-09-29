@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HSAnanya/myportfolio.git/static/css/main.798103b1.css",
+    "main.js": "/HSAnanya/myportfolio.git/static/js/main.9f68bfeb.js",
+    "index.html": "/HSAnanya/myportfolio.git/index.html",
+    "main.798103b1.css.map": "/HSAnanya/myportfolio.git/static/css/main.798103b1.css.map",
+    "main.9f68bfeb.js.map": "/HSAnanya/myportfolio.git/static/js/main.9f68bfeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.798103b1.css",
+    "static/js/main.9f68bfeb.js"
+  ]
+}
