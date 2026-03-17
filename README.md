@@ -1,20 +1,25 @@
-# My Portfolio
+# my-portfolio
 
-This is my personal portfolio website built using React.
+# Getting Started with Create React App
 
-## Features
+This project was bootstrapped with Create React App.
 
-* About Me section
-* Projects showcase
-* Skills and Tools
-* Contact form using EmailJS
+## Available Scripts
 
-## Live Demo
+In the project directory, you can run:
 
-https://hsananya.github.io/myportfolio
+### npm start
 
-## Tech Stack
+Runs the app in the development mode.
 
-* React
-* JavaScript
-* CSS
+### npm test
+
+Launches the test runner.
+
+### npm run build
+
+Builds the app for production.
+
+### npm run eject
+
+Ejects configuration.
