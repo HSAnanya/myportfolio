@@ -1,7 +1,7 @@
 
 export const myprojects = [
   {
-    img:"MyPortfolioImg.png",
+    img:"/MyPortfolioImg.png",
     title: "Portfolio",
     usedLanguages: ["React ,", " CSS ,", " JavaScript"],
     description: "In this project i had created protfolio website using the react application with the help of css and javascript.",
@@ -9,7 +9,7 @@ export const myprojects = [
     link: "https://example.com/project-one"
   },
   {
-    img:"PortfolioImg.png",
+    img:"/PortfolioImg.png",
     title: "Portfolio",
     usedLanguages: ["HTML ,", " CSS ,", " Java"],
     description: "In this project I had created my protfolio using the html,css animations and the java i tryed both fronted and backed here.",
@@ -17,7 +17,7 @@ export const myprojects = [
     link: "https://hsananya.github.io/PortfolioWebpage/"
     },
     {
-    img:"LandingPageImg.png",
+    img:"/LandingPageImg.png",
     title: "Landing Page ",
     usedLanguages: ["HTML ,", " CSS"],
     description: "here I had created a Landing Page of an educational tutorials with html,css animations.",
@@ -25,7 +25,7 @@ export const myprojects = [
     link: "https://hsananya.github.io/LandingPage/"
     },
     {
-      img:"FormValidImg.png",
+      img:"/FormValidImg.png",
     title: "Form validate",
     usedLanguages: ["HTML ,"," CSS"],
     description: "This webpage contain a simple Form which will recive user input and validate the correct formate of enterd data. ",
@@ -33,7 +33,7 @@ export const myprojects = [
     link: "https://hsananya.github.io/FormValidate/"
     },
     {
-      img:"BlogpageImg.png",
+      img:"/BlogpageImg.png",
     title: "Blogpage",
     usedLanguages: ["HTML ,", " CSS"],
     description: "It's an very very simple Blog Page with few ideas of my mind.",
@@ -41,7 +41,7 @@ export const myprojects = [
     link: "https://hsananya.github.io/BlogPage/"
     },
     {
-      img:"DigiClockImg.png",
+      img:"/DigiClockImg.png",
     title: "DigitalClock",
     usedLanguages: ["React", "JavaScript"],
     description: "It is an real time digital clock.",
@@ -49,7 +49,7 @@ export const myprojects = [
     link: "https://example.com/project-six"
     },
     {
-      img:"QuizAppImg.png",
+      img:"/QuizAppImg.png",
       title:"QuizApp",
     usedLanguages: ["React", "JavaScript"],
     description: "a simple react quize app contains MCQ's.",
@@ -57,7 +57,7 @@ export const myprojects = [
     link: "https://example.com/project-six"
     },
     {
-    img:"NoteImg.png",
+    img:"/NoteImg.png",
     title:"NotePad",
     usedLanguages: ["C++", "Qt"],
     description: "A brief description of Project Eight.",

@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : 'light'}>
-      <Router>
-        <Navbar toggleDarkMode={() => setDarkMode(!darkMode)} darkMode={darkMode} />
+<Router basename={process.env.PUBLIC_URL}>
+          <Navbar toggleDarkMode={() => setDarkMode(!darkMode)} darkMode={darkMode} />
 
         <Routes>
           <Route path="/" element={<Home />} />

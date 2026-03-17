@@ -10,7 +10,7 @@ function EducationCard(props) {
       <h4>{props.branch}</h4>
       <h4>{props.score}</h4>
       <a href={props.link} target="_blank" rel="noopener noreferrer">
-        offical website</a>
+        Official Website</a>
     </div>
   );
 }

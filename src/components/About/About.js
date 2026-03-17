@@ -15,8 +15,12 @@ function About() {
       delaySpeed={1000}
     /></h2>
     <section id="Abouthome" >
-      <img id="AboutImg" src="./ReImg1.jpg" alt="Lights" style={{ width: "35%" }} />
-      Hi I am Ananya, a final year student at Kuvempu University pursuing BCA in Computer Science Department. I am passionate about coding and love to explore new technologies. I have a key interest in web development and have worked on several projects using HTML, CSS, JavaScript, and React. I am also familiar with backend technologies like java and python. Apart from coding, I enjoy listening music, and traveling. I am always eager to learn new things and take up new challenges.
+<img
+  id="AboutImg"
+  src={process.env.PUBLIC_URL + "/photo.jpg"}
+  alt="profile"
+  style={{ width: "35%" }}
+/>      Hi I am Ananya, a final year student at Kuvempu University pursuing BCA in Computer Science Department. I am passionate about coding and love to explore new technologies. I have a key interest in web development and have worked on several projects using HTML, CSS, JavaScript, and React. I am also familiar with backend technologies like java and python. Apart from coding, I enjoy listening music, and traveling. I am always eager to learn new things and take up new challenges.
 
     </section>
     <div

@@ -8,8 +8,11 @@ import Tools from "../Tools/Tools";
 function ProjectCard(props) {
   return (
     <div className="project-card">
-      <img id="propImg" src={props.img} alt={props.title} />
-      <h3>{props.title}</h3>
+<img
+id="propImg"
+src={process.env.PUBLIC_URL + props.img}
+alt={props.title}
+/>      <h3>{props.title}</h3>
       <h4>{props.usedLanguages}</h4>
       <p>{props.description}</p>
       <a href={props.gitLink}>GitLink</a><br></br>
