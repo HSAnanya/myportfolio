@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : 'light'}>
-<Router basename={process.env.PUBLIC_URL}>
+<Router basename="/myportfolio">
           <Navbar toggleDarkMode={() => setDarkMode(!darkMode)} darkMode={darkMode} />
 
         <Routes>
