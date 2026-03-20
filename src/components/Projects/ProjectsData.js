@@ -6,7 +6,7 @@ export const myprojects = [
     usedLanguages: ["React ,", " CSS ,", " JavaScript"],
     description: "In this project i had created protfolio website using the react application with the help of css and javascript.",
     gitLink:"null",
-    link: "https://example.com/project-one"
+    link: "https://hsananya.github.io/myportfolio/"
   },
   {
     img:"/PortfolioImg.png",
@@ -46,7 +46,7 @@ export const myprojects = [
     usedLanguages: ["React", "JavaScript"],
     description: "It is an real time digital clock.",
     gitLink:"null",
-    link: "https://example.com/project-six"
+    link: "https://hsananya.github.io/reactclock/"
     },
     {
       img:"/QuizAppImg.png",
@@ -54,7 +54,7 @@ export const myprojects = [
     usedLanguages: ["React", "JavaScript"],
     description: "a simple react quize app contains MCQ's.",
     gitLink:"null",
-    link: "https://example.com/project-six"
+    link: "https://hsananya.github.io/react-quiz-app/"
     },
     {
     img:"/NoteImg.png",
@@ -62,7 +62,7 @@ export const myprojects = [
     usedLanguages: ["C++", "Qt"],
     description: "A brief description of Project Eight.",
     gitLink:"null",
-    link: "https://example.com/project-six"
+    link: "https://hsananya.github.io/noteapp/"
     }
 ];
 
