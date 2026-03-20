@@ -1,8 +1,6 @@
- #tools {
+#tools {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr)); 
-  background-color:#c2c0c000;
-  border-radius: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
   gap: 1.5rem;
   padding: 2rem;
 }
@@ -11,6 +9,7 @@
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
+  text-align: center; 
   transition: transform 0.3s;
 }
 
@@ -20,8 +19,13 @@
   transform: scale(1.05);
 }
 .tools-img {
-  width:10px;
-  height: 10px;
+  width: 50px;   
+  height: 50px;
   object-fit: contain;
   margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  #tools {
+    grid-template-columns: repeat(2, 1fr); /* ✅ 2 per row */
+  }
 }

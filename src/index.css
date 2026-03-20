@@ -1,5 +1,6 @@
-html, body { margin: 0; padding: 0; }
-
+html, body {
+  overflow-x: hidden;
+}
 body {
 
   -webkit-font-smoothing: antialiased;
@@ -11,30 +12,25 @@ code {
     monospace;
 }
 
-/* Responsive styles for mobile and tablets */
 @media (max-width: 768px) {
   #navbar {
     flex-direction: column;
     gap: 1rem;
-    padding: 0.5rem;
-    height: auto;
-    position: static;
+    text-align: center;
   }
 
   section {
+    flex-direction: column; 
     padding: 1rem;
-    flex-direction: column;
   }
 
-  #Abouthome {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-    margin: 1rem;
+  h1, h2 {
+    font-size: 2rem;
   }
 
-  #MyImg,
   #AboutImg {
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
-    display: block;
   }
 }
