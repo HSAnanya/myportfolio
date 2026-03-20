@@ -11,16 +11,16 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : 'light'}>
-<Router basename="/myportfolio">
-          <Navbar toggleDarkMode={() => setDarkMode(!darkMode)} darkMode={darkMode} />
+<Router basename={process.env.PUBLIC_URL}>
+  <Navbar toggleDarkMode={() => setDarkMode(!darkMode)} darkMode={darkMode} />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/projects" element={<Projects />} />
+    <Route path="/contact" element={<Contact />} />
+  </Routes>
+</Router>
     </div>
   );
 }
