@@ -43,7 +43,7 @@ export const myprojects = [
     {
       img:"/DigiClockImg.png",
     title: "DigitalClock",
-    usedLanguages: ["React", "JavaScript"],
+    usedLanguages: ["React ,", " CSS ,", " JavaScript"],
     description: "It is an real time digital clock.",
     gitLink:"null",
     link: "https://hsananya.github.io/reactclock/"
@@ -51,7 +51,7 @@ export const myprojects = [
     {
       img:"/QuizAppImg.png",
       title:"QuizApp",
-    usedLanguages: ["React", "JavaScript"],
+    usedLanguages: ["React ,", " CSS ,", " JavaScript"],
     description: "a simple react quize app contains MCQ's.",
     gitLink:"null",
     link: "https://hsananya.github.io/react-quiz-app/"
@@ -59,7 +59,7 @@ export const myprojects = [
     {
     img:"/NoteImg.png",
     title:"NotePad",
-    usedLanguages: ["C++", "Qt"],
+    usedLanguages: ["React ,", " CSS ,", " JavaScript"],
     description: "A brief description of Project Eight.",
     gitLink:"null",
     link: "https://hsananya.github.io/noteapp/"
