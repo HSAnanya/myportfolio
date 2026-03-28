@@ -1,25 +1,81 @@
-# my-portfolio
+# 🌐 My Portfolio Website
 
-# Getting Started with Create React App
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience in web development.
 
-This project was bootstrapped with Create React App.
+---
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+* 👩‍💻 About Me section
+* 💼 Projects showcase
+* 📬 Contact section
+* 🎨 Responsive and modern UI
+* ⚡ Fast and interactive design
 
-### npm start
+---
 
-Runs the app in the development mode.
+## 🛠️ Technologies Used
 
-### npm test
+* React.js
+* JavaScript (ES6)
+* HTML5 & CSS3
+* Bootstrap / Custom CSS
 
-Launches the test runner.
+---
 
-### npm run build
+## 📂 Folder Structure
 
-Builds the app for production.
+```
+my-portfolio/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   │   └── Contact.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   └── index.css
+├── package.json
+└── README.md
+```
 
-### npm run eject
+---
 
-Ejects configuration.
+## 📂 Projects Included
+
+* 📝 Notes App (CRUD functionality)
+* ⏰ Digital Clock (Real-time updates with animation)
+* 🌐 Portfolio Website
+
+---
+
+## 🌐 Live Demo
+
+👉 https://hsananya.github.io/my-portfolio/
+
+---
+
+## 📬 Contact
+
+* Email: [ananyahsananya@example.com](mailto:ananyahsananya@example.com)
+* LinkedIn:www.linkedin.com/in/ananyahs4102004
+
+
+
+---
+
+## 👩‍💻 Author
+
+**Ananya H S**
+
+---
+
+## ⭐ About
+
+This portfolio was created to showcase my development skills and projects for internships and job opportunities.
